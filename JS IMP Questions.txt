@@ -1,0 +1,386 @@
+//////////////////JAVASCRIPT NOTES\\\\\\\\\\\\\\\\\\
+
+WHAT DO YOU UNDERSTAND BY JAVASCRIPT?
+
+JAVASCRIPT IS A WEB SCRIPTING LANGUAGE USED FOR CLIENT SITE (FRONT END)AND SERVER SITE(BACKEND).JS SUPPORTS OBJECT ORIENTING PROGRAMMING LANGUAGE ABILITIES. JAVASCRIPT INTRODUCED BY BRENDEN EICH IN 1995.MOST IMPORTANT UPDATE OF JAVASCRIPT IS (ES6)IN 2015.REGISTERD NAME OF JAVASCRIPT IS ECMASCRIPT.ECMA STANDS FOR EUROPEAN COMPUTER MANUFACTURES ASSOSIATION.
+------------------------------------------------------------------------------------------------------------------------------------
+
+DATA TYPES IN JAVASCRIPT
+
+THEIR ARE TWO TYPES OF DATA TYPES 
+1)PRIMITIVE DATATYPES.
+
+.NUMBERS-INTEGERS,FLOAT.
+
+.STING-CHARACTERS,LETTERS,SYMBOLS.
+
+.BOOLEAN-TRUE,FALSE.
+
+.NULL-IT IS A ASSIGNMENT VALUE THAT REPRENTS  EMPTY VALUE.
+
+.UNDEFINED-IT IS A VARIABLE THAT HAS BEEN DECLARED BUT NOT ASSIGN VALUE.
+
+2)COMPOUND DATATYPES.
+
+1. OBJECT IS A DATA STRUCTURE USED TO STORE RELATED DATA COLLECTION .
+IT IS STORED DATA AS KEY-VALUE PAIR.
+
+2. ARRAY IS A DATA STRUCTURE THAT STORES A COLLECTION OF ELEMENTS OF THE SAME DATA TYPE.
+ IT HELPS TO STORE MULTIPLE VALUES OF DIFFRENT OR SAME DATATYPE IN SINGLE VARIABLE.
+
+ARRAY PROPERTY AND METHODS
+1.LENGTH RETURNS THE NUMBER OF ELEMENT IN THE ARRAY.
+
+SYNTAX:-VARIABLE NAME.LENGTH(INDEXING NO)
+
+2.POP() RETURN  LAST ELEMENT AT THE END.
+
+SYNTAX:-VARIABLE NAME.POP(INDEX NO)
+
+3.PUSH() ADD NEW ELEMENT A THE END.
+
+SYNTAX:-VARIABLE NAME.PUSH(ELEMENT NAME)
+
+4.SHIFT() REMOVE THE FIRST ELEMENT.
+
+SYNTAX:-VARIABLE NAME.SHIFT()
+
+5.UNSHIFT() ADD A NEW ELEMENT TO THE BIGINNING.
+
+SYNTAX:-VARIABLE NAME.UNSHIFT("ELEMENT NAME YOU WANT TO ADD")
+-----------------------------------------------------------------------------------------------------------------------------------
+
+WHAT IS HOISTING?
+
+HOSTING IS A JAVASCRIPT CONCEPT THAT REFERS TO THE PROCESS OF MOVING DECLARATION TO THE TOP OF THEIR SCOPE THIS MEANS THAT VARIABLE AND FUNCTION CAN BE USED BEFORE THEY ARE DECLARED AS LONG AS THEY ARE DECLARED BEFORE THEY USED IN A FUNCTION.
+
+
+WHAT DO YOU UNDERSTAND BY LET VAR CONST?
+
+VAR AND LET KEYWORD  BOTH ARE USED TO DECLARE VARIABLE IN JAVASCRIPT.
+
+VAR KEYWORD DECLARED AS A GLOBAL VARIABLE WHICH MEANS THAT VARIABLE CAN BE ACCESSED FROM ANYWHERE IN THE CODE.
+
+THE LET KEYWORD DECLARED AS A LOCAL VARIABLE WHICH MEANS THAT VARIABLE CAN ONLY ACCESS WITHIN THE BLOCK OF CODE WHERE IT DECLARED.
+
+LET AND CONST HAVE BLOCK SCOPE . LET IS REASSIGNABLE AND CONST IS NON REASSIGNABLE
+
+VAR IS A FUNCTION SCOPE AND CAN BE REDECLARED AND ASSIGNED THROUGHOUT THE FUNCTION .
+
+CONST USED WHEN YOU WANT TO ENSURE A VARIABLE VALUE DOESN'T CHANGE THROUGHOUT LIFE IT CAN BE RESIGNED A NEW VALUE BUT DOES NOT CHANGE VARIABLE.
+
+WHAT IS FUNCTION SCOPE?
+ 
+A VARIABLE DECLARED INSIDE A FUNCTION IS ACCESSIBLE ONLY WITH IN THE FUNCTION NOT OUTSIDE OF IT.
+
+WHAT IS BLOCK SCOPE?
+
+A VARIABLE DECLARED INSIDE A BLOCK IS ACCESSIBLE ONLY WITHIN THE BLOCK.
+------------------------------------------------------------------------------------------------------------------------------
+WHAT IS STRINGS?
+
+A STRING IS A SEQUENCE OF A CHARACTERS USED TO REPRESENT TEXT IT CAN BE DECLARED IN (' ') SINGLE QUOTES,(" ") DOUBLE QUOTES.
+
+1.LENGTH -IT SHOWS THE LENGTH OF THE STRINGS IN NUMBER.
+
+SYNTAX:-DOCUMENT.WRITE(VARIABLE.LENGTH)
+
+2.CONCATINATION- USE FOR ADDITION OF VARIABLES.
+
+
+SYNTAX:-DOCUMENT.WRITE(VARIABLE.CONCAT(VARIABLE,VARIABLE))
+
+
+3. SLICE-TO PRINT THE NUMBER BY THEIR INDEXING NUMBER.
+
+
+SYNTAX:-DOCUMENT.WRITE(VARIABLE.SLICE (INDEX NO))
+
+
+4.UPPERCASE IS USE CAPITAL LETTERS AND LOWERCASE IS USE FOR SMALL LETTERS.
+
+SYNTAX:-DOCUMENT.WRITE(VARIABLE.TOUPPERCASE())
+
+SYNTAX:-DOCUMENT.WRITE(VARIABLE.TOLOWERCASE())
+
+5.TRIM-IT CAN TRIM THE EXTRA SPACE.
+
+6.CHAR AT -IT IS USED TO PRINT PARTICULAR CHARACTERS BY THE NUMBER.
+
+SYNTAX:-DOCUMENT.WRITE(VARIABLE.CHARAT(INDEX NO))
+
+
+7.SPLIT-IT IS A METHOD BREAKS  THE STRING UPTO SEPRATE STRING AND ALING IN ARRAY
+
+SYNTAX:-CONSOLE.LOG(VARIABLE.SPLIT(" USE A SYMBOL -"))
+
+
+8.INDEXOF IT IS A METHOD USE TO SEARCH TO SEARCH A PARTICULAR CHARACTER BY THE NUMBERS.
+
+SYNTAX:-DOCUMENT.WRITE(VARIABLE.INDEXOFF ("ELEMENT"))
+
+
+9.REPLACED- IT IS USED TO REPLACE THE VALUE GIVEN IN THE STRING.
+
+SYNTAX:-DOCUMENT.WRITE(VARIABLE.REPLACE(" VALUE"))
+
+------------------------------------------------------------------------------------------------------------------------------
+
+What Are Closures in JavaScript? 
+
+Closures (closureFn) are functions that have access to variables from an outer 
+function even after the outer function has finished executing. They “remember” the environment in which they were created
+ 
+------------------------------------------------------------------------------------------------------------------------------
+
+ What Is Event Delegation in JavaScript? 
+
+Event delegation is a technique where you attach a single event listener to a parent element, and that event listener handles events occurring on its child elements. It helps optimize performance and reduce memory consumption.It’s useful for 
+dynamically created elements or when you have a large number of elements. 
+
+----------------------------------------------------------------------------------------------------------------------------
+
+ What Is the Difference Between == and === Operators in JavaScript?
+
+The equality == operator is a comparison operator that compares two values and 
+returns true if they are equal. The strict equality === operator is also a 
+comparison operator, but it compares two values and returns true only if they are 
+equal and of the same type.
+----------------------------------------------------------------------------------------------------------------------
+
+ What Is the Difference Between Function Declarations and 
+Function Expressions? 
+Function declarations are defined using the function keyword, while function 
+expressions are defined by assigning a function to a variable. Function 
+declarations are hoisted, while function expressions are not.  
+
+----------------------------------------------------------------------------------------------------------------------------
+What Are the Different Types of Errors in JavaScript? 
+JavaScript can throw a variety of errors, including: 
+ Syntax errors: These errors occur when the JavaScript code is not 
+syntactically correct. 
+ Runtime errors: These errors occur when the JavaScript code is executed 
+and there is a problem. 
+ Logical errors: These errors occur when the JavaScript code does not do 
+what it is supposed to do.
+----------------------------------------------------------------------------------------------------------------------------------
+
+What Is Memoization in JavaScript? 
+Memoization is a technique that can be used to improve the performance of 
+JavaScript code. Memorization works by storing the results of expensive 
+calculations in a cache.
+--------------------------------------------------------------------------------------------------------------------------------
+
+What Is Recursion in JavaScript? 
+Recursion is a programming technique that allows a function to call itself. 
+Recursion can be used to solve a variety of problems, such as finding the factorial 
+of a number or calculating the Fibonacci sequence.
+
+-----------------------------------------------------------------------------------------------------------------------------------
+
+ What Is the Use of a Constructor Function in JavaScript? 
+A constructor function is a special type of function that is used to create objects. 
+Constructor functions are used to define the properties and methods of an object. 
+
+------------------------------------------------------------------------------------------------------------------------------------
+. What Is the Difference Between a Function Declaration and a 
+Function Expression in JavaScript? 
+A function declaration is a statement that defines a function. A function 
+expression is an expression that evaluates to a function.  
+
+-----------------------------------------------------------------------------------------------------------------------------------
+
+What Is a Callback Function in JavaScript? 
+A callback function is a function passed as an argument to another function, 
+which is then invoked inside the outer function. It allows asynchronous or event
+driven programming. 
+-----------------------------------------------------------------------------------------------------------------------------------
+
+ What Are Promises in JavaScript? 
+Promises are objects used for asynchronous operations. They represent the 
+eventual completion or failure of an asynchronous operation and allow chaining 
+and handling of success or error cases. 
+
+-----------------------------------------------------------------------------------------------------------------------------------
+
+ What Is the Difference Between Synchronous and Asynchronous 
+Programming? 
+In synchronous programming, the program execution occurs sequentially, and 
+each statement blocks the execution until it is completed. In asynchronous 
+programming, multiple tasks can be executed concurrently, and the program 
+doesn’t wait for a task to finish before moving to the next one.
+
+-----------------------------------------------------------------------------------------------------------------------------------
+
+Explain the Concept of Event Bubbling in JavaScript. 
+Event bubbling is the process where an event triggers on a nested element, and 
+then the same event is propagated to its parent elements in the document object 
+model (DOM) tree. It starts from the innermost element and goes up to the 
+document root.
+-----------------------------------------------------------------------------------------------------------------------------------
+
+What Are Arrow Functions in JavaScript? 
+Arrow functions are a concise syntax for writing JavaScript functions. They have a 
+more compact syntax compared to traditional function expressions and inherit 
+the this value from their surrounding scopE.
+
+-----------------------------------------------------------------------------------------------------------------------------------
+
+What Is the Difference Between querySelector and 
+getElementById? 
+querySelector is a more versatile method that allows you to select elements 
+using CSS-like selectors, while getElementById specifically selects an element with 
+the specified ID. 
+-----------------------------------------------------------------------------------------------------------------------------------
+
+
+What Is the Purpose of the setTimeout() Function in JavaScript? 
+The setTimeout() function is used to delay the execution of a function or the 
+evaluation of an expression after a specified amount of time in milliseconds.
+
+-----------------------------------------------------------------------------------------------------------------------------------
+
+ What Is the Difference Between localStorage and 
+sessionStorage in JavaScript? 
+Both localStorage and sessionStorage are web storage objects in JavaScript, but 
+they have different scopes and lifetimes. 
+ localStorage persists data even after the browser window is closed and is 
+accessible across different browser tabs/windows of the same origin. 
+ sessionStorage stores data for a single browser session and is accessible 
+only within the same tab or window. 
+
+
+-----------------------------------------------------------------------------------------------------------------------------------
+What Is the Purpose of the map() Function in JavaScript? 
+The map() function is used to iterate over an array and apply a transformation or 
+computation on each element. It returns a new array with the results of the 
+transformation. 
+
+-----------------------------------------------------------------------------------------------------------------------------------
+ What Is the Purpose of the fetch() function in JavaScript? 
+
+The fetch() function is used to make asynchronous HTTP requests in JavaScript. It 
+returns a Promise that resolves to the response from the server.
+-----------------------------------------------------------------------------------------------------------------------------------
+
+What Is the Purpose of the async and await Keywords in 
+JavaScript? 
+The async and await keywords are used for handling asynchronous operations in a 
+more synchronous-like manner. The async keyword is used to define an 
+asynchronous function, and the await keyword is used to pause the execution of 
+an async function until a promise is fulfilled or rejected.
+
+ Is JavaScript a dynamically typed or statically typed language? 
+JavaScript is a dynamically typed language.
+-----------------------------------------------------------------------------------------------------------------------------------
+What is the "this" keyword in JavaScript? 
+"this" refers to an object running the current line of code. It is a reference to the 
+object which executes the current function. If the function that is being 
+referenced is a regular one, "this" references the global object. If the function is a 
+method of the object, "this" refers to the object itself.
+-----------------------------------------------------------------------------------------------------------------------------------
+Explain JavaScript Cookies. 
+Cookies are small text files saved on the computer. They are created to store the 
+required information when users browse the website. Examples include Users 
+Name information and information about shopping carts from previous visits.
+
+-----------------------------------------------------------------------------------------------------------------------------------
+Demonstrate the importance of isNaN() function in JavaScript. 
+The isNaN() function is used to determine whether the given value is an illegal 
+number or not. If it returns true, the value is a NaN - Not a number. Else returns 
+false. It differs from the Number.isNaN() method.
+
+-----------------------------------------------------------------------------------------------------------------------------------
+ What is the difference between the methods .map() and 
+.forEach() in JavaScript? 
+The .map() and .forEach() methods are both used to iterate over an array, but the 
+.map() method can be used to transform an array by returning a new array with 
+the same number of elements but with different values. The .forEach() method is 
+used to perform an action on each element in the array without returning a new 
+array.
+-----------------------------------------------------------------------------------------------------------------------------------
+
+Explain how DOM is utilized in JavaScript. 
+Document Object Model (DOM) is how different objects in a document interact 
+with each other. It is used for developing web pages that include objects like 
+paragraphs, links, etc. These Objects can be made to perform actions like add or 
+delete. Also, it adds extra abilities to a web page.
+-----------------------------------------------------------------------------------------------------------------------------------
+
+  Explain event bubbling. 
+In JavaScript, DOM elements can be nested inside each other. 
+Now, in such cases, when the handler of the child is clicked, the handler 
+associated with the parent will also work.
+-----------------------------------------------------------------------------------------------------------------------------------
+ Define window.onload and onDocumentReady. 
+Window.onload is an event that is fired when the page has finished loading. This 
+event is often used to perform tasks that need to be done after the page has 
+loaded.
+-----------------------------------------------------------------------------------------------------------------------------------
+
+135. List some features of JavaScript. 
+Some of the features of JavaScript are: 
+o Lightweight 
+o Interpreted programming language 
+o Good for the applications which are network-centric 
+o Complementary to Java 
+o Complementary to HTML 
+o Open source 
+Cross-platform 
+ 
+-----------------------------------------------------------------------------------------------------------------------------------
+
+136. Who developed JavaScript, and what was the first name of 
+JavaScript? 
+o JavaScript was developed by Brendan Eich, who was a Netscape 
+programmer. Brendan Eich developed this new scripting language in just 
+ten days in the year September 1995. At the time of its launch, JavaScript 
+was initially called Mocha. After that, it was called Live Script and later 
+known as JavaScript.
+-----------------------------------------------------------------------------------------------------------------------------------
+List some of the advantages of JavaScript. 
+Some of the advantages of JavaScript are: 
+o Server interaction is less 
+o Feedback to the visitors is immediate 
+o Interactivity is high 
+o Interfaces are richer 
+ -----------------------------------------------------------------------------------------------------------------------------------
+138. List some of the disadvantages of JavaScript. 
+o Some of the disadvantages of JavaScript are: 
+o No support for multithreading 
+o No support for multiprocessing 
+o Reading and writing of files is not allowed 
+o No support for networking applications.
+-----------------------------------------------------------------------------------------------------------------------------------
+. Define anonymous function 
+It is a function that has no name. These functions are declared dynamically at 
+runtime using the function operator instead of the function declaration. The 
+function operator is more flexible than a function declaration. It can be easily 
+used in the place of an expression. 
+----------------------------------------------------------------------------------------------------------------------------------- What is BOM? 
+BOM stands for Browser Object Model. It provides interaction with the browser. 
+The default object of a browser is a window. So, you can call all the functions of 
+the window by specifying the window or directly. The window object provides 
+various properties like document, history, screen, navigator, location, 
+innerHeight, innerWidth, 
+----------------------------------------------------------------------------------------------------------------------------------
+
+179. What are the conventions of naming a variable in JavaScript? 
+Following are the naming conventions for a variable in JavaScript: 
+ Variable names cannot be similar to that of reserved keywords. For example, 
+var, let, const, etc. 
+ Variable names cannot begin with a numeric value. They must only begin with a 
+letter or an underscore character. 
+ Variable names are case-sensitive.
+-----------------------------------------------------------------------------------------------------------------------------------
+Difference between client-side and server-side 
+ Client-side JavaScript 
+ Server-side Javascript  
+ Client-side JavaScript is made up of fundamental language and predefined 
+objects that perform JavaScript in a browser.  
+ Also, it is automatically included in the HTML pages where the browser 
+understands the script. 
+ Server-side JavaScript is quite similar to Client-side javascript. 
+ Server-side JavaScript can be executed on a server.  
+ The server-side JavaScript is deployed once the server processing is done.
+-----------------------------------------------------------------------------------------------------------------------------------
